@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+<section class="col-lg-8 mx-auto mt-5">
+    <h1 class="text-center text-success">TGM ANNUAL BUDGET</h1>
+</section>
+
+<section class="row col-lg-8 mx-auto mt-5">
+<div class="form-floating col-6">
+    <input type="text" class="form-control" id="inputBudget">
+    <label for="inputBudget">Enter your budget</label>
+</div>
+<div class="form-floating col-6">
+    <input type="text" class="form-control" id="inputPrice">
+    <label for="inputBudget">Enter budget price</label>
+</div>
+</section>
+
+<section class=" container col-lg-8 mx-auto mt-5">
+    <button class="btn btn-success" onclick="addBudget()">Enter your budget</button>
+    <button class="btn btn-warning ">Update your budget</button>
+    <button class="btn btn-danger" onclick="deleteBudget()">Delete budget</button>
+
+
+</section>
+
+<section>
+    <table class="table table-bodered table" id="mytable"></table>
+</section>
+    <script src="script.js"></script>
+</body>
+</html>
